@@ -1,0 +1,21 @@
+
+public class CarParts {
+	
+	private String nameOfParts;
+	private double cost;
+	
+	public CarParts() {}
+	
+	public CarParts(String nameOfParts, double cost)
+	{
+		this.nameOfParts = nameOfParts;
+		this.cost = cost;
+	}
+	
+	public String ShowInfo()
+	{
+		String str = "In CarParts " +nameOfParts + " " + cost;
+		return str;
+	}
+	
+}

@@ -1,0 +1,20 @@
+
+public class CarBrand {
+	
+	private String brandName;
+	private int yearOfBirth;
+	
+	public CarBrand() {}
+	
+	public CarBrand(String brandName, int yearOfBirth)
+	{
+		this.brandName = brandName;
+		this.yearOfBirth = yearOfBirth;
+	}
+	
+	public String Show()
+	{
+		String str = brandName + " " + yearOfBirth;
+		return str;
+	}
+}
